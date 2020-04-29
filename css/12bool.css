@@ -12,7 +12,6 @@
 .debug [class*="col-"]{
   background-color: pink;
   border: 1px solid black;
-  height: 300px;
 }
 .debug [class*="col-"] > .container [class*="col-"] {
   background-color: lightcoral;
@@ -193,7 +192,7 @@
 
 /* colonne large */
 
-@media all and ( min-width:992px) {
+@media all and ( min-width:993px) {
 
   .col-lg-1 {
     width: calc( (100%/12)*1 )
