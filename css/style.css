@@ -1,50 +1,131 @@
-.row {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
+
+
+@media screen and (max-width: 768px) {
+
+  /* reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* generali */
+  body {
+    font-size: 4em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+
+    text-transform: uppercase;
+    background: #ee6352;
+    color: white;
+  }
+  /* row 1 */
+  #lezioni {
+    color: white;
+    background-color: #4f5d75;
+    padding-bottom: 15px;
+  }
+  #lezioni h3 {
+    text-transform: uppercase;
+background: white;
+color: black;
+  }
+  #lezioni img {
+    display: none;
+  }
+  /* row 3 */
+  #why {
+    background-color: #f79d84;
+  }
+  #why h3 {
+    color: white;
+  }
 }
 
-/* BLOCCO LEZIONI */
-#lezioni .row>.left,
-#lezioni .row>.right {
+
+
+@media screen and (min-width: 768px) and (max-width:992px){
+  #lezioni { background: red;}
 }
 
-#lezioni .row img {
-  /* per centrare orizzontalmente */
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+  margin: 22px;
 }
+h3 {
+  margin: 18px 0;}
 
-#lezioni {
-  text-align: center;
-}
-
-/* BLOCCO STEPS */
-
-
-#steps {
-  text-align: center;
-}
-
-/* BLOCCO PERCHE */
-#why {
-  text-align: center;
-}
-
-#why .row img {
-  background-color: #428bca;
-  border-radius: 50%;
-  padding: 30px
-}
-
-/* COMMON */
+  body {
+    margin: 8px}
+    .row {
+      margin-left: 166px;
+      margin-right: 166px;
+      margin-top: 100px;
+    }
+    #steps .central {
+    }
 
 
-.background-grey {
-  background-color: #f9f9f9;
-}
+    /* BLOCCO LEZIONI */
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+    }
+    #lezioni .row img {
+      height: 150px;
 
-img {
-  height: 200px;
-}
+      /* per centrare orizzontalmente */
+      margin-right: auto;
+      margin-left: auto;
+    }
+    #lezioni {
+      text-align: center;
+    }
+    /* BLOCCO STEPS */
+
+    #steps {
+      text-align: center;
+    }
+    /* BLOCCO PERCHE */
+    #why {
+      text-align: center;
+    }
+    #why .row img {
+      background-color: #428bca;
+      border-radius: 50%;
+      padding: 30px
+    }
+    /* COMMON */
+
+
+    .background {
+      background-color: #f9f9f9;
+    }
+
+    img {
+      height: 200px;
+    }
+    .wrapper {
+      width: 998px;
+      margin: auto;}
+
+    }
