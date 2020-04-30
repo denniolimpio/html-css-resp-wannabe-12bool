@@ -34,30 +34,30 @@ hr {
 /* layout <767px */
 @media screen and (max-width: 767px) {
   /* generali */
-  body {
-    font-size: 4em;
-  }
+body {
+  font-size: 4em;
+}
 
-  h1 {
-    font-size: 1.2em;
-    text-transform: uppercase;
-  }
-  /* row 1 */
-  #lezioni {
-    color: white;
-    background-color: #6c80a6;
-    padding-bottom: 15px;
-  }
-  #lezioni h3 {
-    text-transform: uppercase;
-    background-color: #e6a422;
-  }
+h1 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+/* row 1 */
+#lezioni {
+  color: white;
+  background-color: #6c80a6;
+  padding-bottom: 15px;
+}
+#lezioni h3 {
+  text-transform: uppercase;
+  background-color: #e6a422;
+}
 
   /* row 3 */
-  #why {
+#why {
     background-color: #6c80a6;
   }
-  #why h3 {
+#why h3 {
     color: black;
   }
 }
@@ -71,8 +71,8 @@ body {
   background: #6c80a6;
 }
 #steps h3 {
-color: white;
-font-weight: bold;
+  color: white;
+  font-weight: bold;
 }
 }
 /* layout >992px */
@@ -82,6 +82,7 @@ h3 {
   margin: 18px 0;
 }
 .row {
+  width: 992px;
   margin-top: 100px;
 }
 #lezioni .left img {
@@ -96,5 +97,8 @@ h3 {
   width: 260px;
   height: 260px;
 
+}
+#why .second {
+  margin: 80px 0;
 }
 }
